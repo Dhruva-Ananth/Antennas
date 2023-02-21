@@ -21,7 +21,7 @@ Following Designs are certain requirements in the field of Satellite antenna sys
 |----------------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
 | Frequency Range                  | 9.5-10.5                                   | SAR                                                                         |
 | Gain and Flatness                | 30dB, 2dB flatness                         |                                                                             |
-| Kind of Radiation Pattern Needed | Pointed Beam                               | Least side lobes                                                            |
+| Kind of Radiation Pattern Needed | Pointed Beam                               | Least side lobes, -70dBm                                                    |
 | Allowable VSWR in the Range      | 3                                          |                                                                             |
 | Polarization Requirements        | H and V individually                       |                                                                             |
 | Type of Connector Interface      | SMA/Molex                                  | Individual for Different Polarization                                       |
@@ -31,3 +31,20 @@ Following Designs are certain requirements in the field of Satellite antenna sys
 | Lifetime of the Antenna          | > 5 years                                  | Small Satellite Lifetime                                                    |
 | Steerability Accuracy            | 2 Deg E2E Main Lobe, steps of 0.01deg      | Can be relaxed                                                              |
 | Extra Information                | Will be coated with protective coating     | Backside of the antenna if possible should be able to support Solar panels. |
+
+## High Gain TX/RX Antenna using Meta Material Surface
+
+| Name of the Feature              | Value Expected                             | Remarks                                                                     |
+|----------------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| Frequency Range                  | 9.8 GHz Center                             | Communication                                                               |
+| Gain and Flatness                | 43dB, 3dB flatness                         |                                                                             |
+| Kind of Radiation Pattern Needed | Pointed Beam                               | Side lobes acceptable upto -30dBm                                           |
+| Allowable VSWR in the Range      | 3                                          |                                                                             |
+| Polarization Requirements        | Circular (LHCP, Preferred)                 |                                                                             |
+| Type of Connector Interface      | SMA/Molex                                  | LHCP and RHCP provisions                                                    |
+| Power Handled by the Antenna     | 30W                                        |                                                                             |
+| Antenna Mounting                 | Fixed on Zenith facing Satellite           | Temperatures seen, -50Deg to +90Deg                                         |
+| Radome Requirement               | Thermal Shielding requirment at discretion |                                                                             |
+| Lifetime of the Antenna          | > 10 years                                 | Small Satellite Lifetime                                                    |
+| Steerability Accuracy            | 2 Deg E2E Main Lobe, steps of 0.01deg      | Can be relaxed                                                              |
+| Extra Information                | Will be coated with protective coating     | Backside of the antenna if possible should be able to support Solar panels along with the ground plane |
